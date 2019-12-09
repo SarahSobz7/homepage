@@ -1,0 +1,80 @@
+body {
+    background-color:white;
+}
+
+
+.container{
+    width: 1280px;
+    height: auto;
+    margin: auto;
+}
+
+.grid_container{
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px;
+    grid-auto-rows: 10px;
+    width: 1280px;
+    
+    
+}
+
+h1{
+    font-family:'Quicksand',sans-serif;
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-left: 45px;
+    text-decoration: none;
+   
+    
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color:black;
+    font-weight: 200;
+    margin-left: 47px;
+    position: relative;
+    top:-40px;
+   
+
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+}
+.sloth_homepage_img:hover{
+    transform: scale(1.2);
+    
+}
+
+.sloth_homepage_img{
+    position: relative;
+    padding-left: 360px;
+}
+.homepage_img:hover {
+    transform: scale(1.2);
+}
+
+.homepage_img{
+    position: relative;
+    padding-left: 360px;
+}
+
+.mobileapp_img:hover {
+    transform: scale(1.2);
+}
+
+.mobileapp_img{
+    position: relative;
+    padding-left: 542px;
+    padding-right: 420px;
+}
